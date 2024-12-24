@@ -1,0 +1,20 @@
+{
+  "name": "youtube-insights-extension",
+  "version": "1.0.0",
+  "description": "Advanced YouTube analytics and insights tool",
+  "scripts": {
+    "build": "zip -r youtube-insights-extension.zip . -x '*.git*' -x 'node_modules*' -x '*.zip'",
+    "package": "npm run build"
+  },
+  "keywords": [
+    "youtube",
+    "analytics",
+    "chrome-extension"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^7.6.0"
+  },
+  "main": "background.js"
+}
