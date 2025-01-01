@@ -1,5 +1,5 @@
 // YouTube Data API integration
-const API_KEY = 'AIzaSyCiF6i8rVbXp-PhpDkoUS2ybzq3_6B04zI'; // User-provided YouTube Data API key
+const API_KEY = ' YOUR YOUTUBE DATA API KEY HERE'; // User-provided YouTube Data API key
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'fetchVideoInsights') {
